@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #e3edf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 160px;
+  aspect-ratio: 1;
+
+  position: relative;
+}
+.container .outer {
+  width: 160px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.container .outer .inner {
+  width: 120px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.7px -0.7px 0 rgba(255, 255, 255, 1), 0.8px 0.8px 0 rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#number {
+  font-weight: 600;
+  color: #555;
+  font-size: 23px;
+}
+svg {
+  position: absolute;
+  top: 0;
+  left: ;
+}
+circle {
+  fill: none;
+  stroke: url("#GradientColor");
+  stroke-width: 20px;
+  stroke-dashoffset: 153.65;
+  stroke-dasharray: 439;
+}
